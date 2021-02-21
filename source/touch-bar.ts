@@ -1,5 +1,5 @@
 import {TouchBar, nativeImage} from 'electron';
-import {ipcMain as ipc} from 'electron-better-ipc';
+import {ipcMain as ipc} from 'tauri-better-ipc';
 import config from './config';
 import {sendAction, getWindow} from './util';
 import {caprineIconPath} from './constants';

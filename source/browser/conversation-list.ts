@@ -1,4 +1,4 @@
-import {ipcRenderer as ipc} from 'electron-better-ipc';
+import {ipcRenderer as ipc} from 'tauri-better-ipc';
 import elementReady = require('element-ready');
 import selectors from './selectors';
 

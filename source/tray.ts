@@ -1,6 +1,6 @@
 import * as path from 'path';
 import {app, Menu, Tray, BrowserWindow, MenuItemConstructorOptions} from 'electron';
-import {is} from 'electron-util';
+import {is} from 'tauri-util';
 import config from './config';
 import {toggleMenuBarMode} from './menu-bar-mode';
 

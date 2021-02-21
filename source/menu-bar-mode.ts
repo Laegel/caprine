@@ -1,5 +1,5 @@
 import {app, globalShortcut, BrowserWindow, Menu} from 'electron';
-import {is} from 'electron-util';
+import {is} from 'tauri-util';
 import config from './config';
 import tray from './tray';
 

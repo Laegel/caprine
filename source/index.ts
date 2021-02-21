@@ -12,13 +12,13 @@ import {
 	MenuItemConstructorOptions,
 	systemPreferences
 } from 'electron';
-import {ipcMain} from 'electron-better-ipc';
-import {autoUpdater} from 'electron-updater';
-import electronDl = require('electron-dl');
-import electronContextMenu = require('electron-context-menu');
-import electronLocalshortcut = require('electron-localshortcut');
-import electronDebug = require('electron-debug');
-import {is, darkMode} from 'electron-util';
+import {ipcMain} from 'tauri-better-ipc';
+import {autoUpdater} from 'tauri-updater';
+import electronDl = require('tauri-dl');
+import electronContextMenu = require('tauri-context-menu');
+import electronLocalshortcut = require('tauri-localshortcut');
+import electronDebug = require('tauri-debug');
+import {is, darkMode} from 'tauri-util';
 import {bestFacebookLocaleFor} from 'facebook-locales';
 import doNotDisturb = require('@sindresorhus/do-not-disturb');
 import updateAppMenu from './menu';

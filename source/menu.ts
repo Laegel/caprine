@@ -8,7 +8,7 @@ import {
 	aboutMenuItem,
 	openNewGitHubIssue,
 	debugInfo
-} from 'electron-util';
+} from 'tauri-util';
 import config from './config';
 import getSpellCheckerLanguages from './spell-checker';
 import {sendAction, showRestartDialog, getWindow, toggleTrayIcon, toggleLaunchMinimized} from './util';

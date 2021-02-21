@@ -1,5 +1,5 @@
-import Store = require('electron-store');
-import {is} from 'electron-util';
+import Store = require('tauri-store');
+import {is} from 'tauri-util';
 
 type StoreType = {
 	followSystemAppearance: boolean;

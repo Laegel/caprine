@@ -1,6 +1,6 @@
 import {app, BrowserWindow, dialog, Menu} from 'electron';
-import {ipcMain} from 'electron-better-ipc';
-import {is} from 'electron-util';
+import {ipcMain} from 'tauri-better-ipc';
+import {is} from 'tauri-util';
 import config from './config';
 import tray from './tray';
 

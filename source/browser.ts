@@ -1,5 +1,5 @@
-import {ipcRenderer as ipc} from 'electron-better-ipc';
-import {api, is} from 'electron-util';
+import {ipcRenderer as ipc} from 'tauri-better-ipc';
+import {api, is} from 'tauri-util';
 import elementReady = require('element-ready');
 import selectors from './browser/selectors';
 import config from './config';
